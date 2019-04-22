@@ -1,0 +1,25 @@
+{
+  "name": "lab6-websockets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elkeborr/lab6-websockets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elkeborr/lab6-websockets/issues"
+  },
+  "homepage": "https://github.com/Elkeborr/lab6-websockets#readme",
+  "dependencies": {
+    "express-generator": "^4.16.0",
+    "nodemon": "^1.18.11"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
