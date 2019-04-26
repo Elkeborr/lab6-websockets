@@ -5,6 +5,8 @@ class Vote {
             let that = this;
             this.batman = document.querySelector(".btn--batman");
             this.superman = document.querySelector(".btn--superman");
+            this.batman = document.querySelector(".batman img")
+            this.imageSuperman = document.querySelector(".superman img");
             
         // primus web sockets
         this.primus = Primus.connect("/", {
@@ -46,11 +48,11 @@ class Vote {
     }
 
     votebatman() {
-        
+        this.batman.style.display = "block";
     }
 
     votesuperman() {
-        
+        this.superman.style.display = "block";
     }
 
 

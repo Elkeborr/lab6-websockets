@@ -9,27 +9,20 @@ body {
 .hero{
   width: 100vw;
   height: 100vh;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/fight.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container{
-background-color: black;
-color:white;
+  background-color: black;
+  color:white;
 }
-
 
 h1{
   text-align:center;
   font-size: 3em;
- 
 }
-
-
 
 .btn{
   text-transform:uppercase;
@@ -67,4 +60,6 @@ h1{
 }
 
 
-
+.hidden{
+  display: none;
+}
