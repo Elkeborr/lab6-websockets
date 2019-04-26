@@ -8,8 +8,38 @@ a {
 }
 
 h1{
-  text-align: center;
+  text-align:center;
+  font-size: 3em;
 }
-a{
+
+
+
+.btn{
+  text-transform:uppercase;
+  border-radius:0.2em;
   text-decoration:none;
+  background-color:white;
+  /* gaat zich gedragen als een block element*/
+  display: inline-block;
+  padding:0.5em;
+  font-weight:bold;
+  color:grey;
+  margin-left:2em;
 }
+
+.btn:active{
+  position: relative;
+  top :1px;
+  
+}
+
+.btn--batman{
+  background-color:black;
+  color:white;
+}
+
+.btn--superman{
+  background-color:#C80000;
+  color:white;
+}
+
