@@ -2,17 +2,17 @@
 
 
 body {
-  padding: 50px;
+ padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.hero{
+  width: 100vw;
+  height: 100vh;
   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/fight.jpg');
   background-position: center;
   background-repeat: no-repeat;
-
-  position: relative;
-  height: 100vh;
- 
 }
-
 
 .container{
 
@@ -22,7 +22,7 @@ body {
 h1{
   text-align:center;
   font-size: 3em;
-  padding:20px;
+ 
 }
 
 
