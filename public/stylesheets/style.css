@@ -50,19 +50,9 @@ padding:20px;
 
 
 
-.btn--superman{
-  background-color:#C80000;
-  color:white;
-}
-
-
 .container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color:red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
-.flex{
-  max-width: 50%;
-}
