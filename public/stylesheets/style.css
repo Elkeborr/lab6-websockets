@@ -4,7 +4,8 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #F2F2F4;
+  background-image:url('../images/fight.jpg');
+  
 }
 h1{
   text-align:center;
@@ -54,5 +55,8 @@ padding:20px;
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  background-color: white;
 }
 
