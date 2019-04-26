@@ -18,35 +18,42 @@ class Vote {
         });
 
         this.primus.on("data", function (data) {
-            if (data.action === "playhorn") {
-                that.playHorn();
+            if (data.action === "votebatman") {
+                that.votebatman();
+            }else if(data.action === "votesuperman"){
+                that.votesuperman();
             }
         });   
 
-        // allow for a click on our button
+        // klik op een van de knoppe
+        this.batman.addEventListener("click", function (e) {
+            that.primus.write({
+                 "action": "votebatman"
+            });
+                e.preventDefault();
+        });
+
         this.superman.addEventListener("click", function (e) {
             that.primus.write({
-                 "action": "playhorn"
+                 "action": "votesuperman"
             });
                 e.preventDefault();
 });
 
-this.batman.addEventListener("click", function (e) {
-    that.primus.write({
-         "action": "playhorn"
-    });
-        e.preventDefault();
-});
+
 
 
     }
 
-    playHorn() {
-        this.audio.volume = 0.1;
-        this.audio.play();
-        this.image.style.display = "block";
+    votebatman() {
+        
     }
 
+    votesuperman() {
+        
+    }
 
 
 }
+
+let v = new Vote();
