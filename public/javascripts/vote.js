@@ -42,9 +42,6 @@ class Vote {
                 e.preventDefault();
 });
 
-
-
-
     }
 
     votebatman() {

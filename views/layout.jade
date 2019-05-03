@@ -5,3 +5,18 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     block content
+.hero 
+  .container
+      h1 Who will win?
+      .buttons
+        a.btn.btn--batman Batman
+        a.btn.btn--superman Superman
+  
+  .votes.hidden
+    .batman
+      img(src="../public/images/batman.png", alt="batman")
+    .superman
+      img(src="../public/images/superman.png", alt="superman")
+
+script(src='javascripts/primus.js')
+script(src='javascripts/vote.js')
