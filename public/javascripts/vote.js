@@ -30,30 +30,33 @@ class Vote {
         // klik op een van de knoppe
         this.batman.addEventListener("click", function (e) {
             that.primus.write({
-                 "action": "votebatman",
-                 "input" : input
+                 "action": "votebatman"
+                
             });
                 e.preventDefault();
         });
 
         this.superman.addEventListener("click", function (e) {
             that.primus.write({
-                 "action": "votesuperman",
-                 "input" : input
+                 "action": "votesuperman"
+            
             });
                 e.preventDefault();
 });
 
-    }
+votes(aantal){
+    let batman = document.getElementById('batman');
+    let superman = document.getElementById('superman');
+    console.log("value = " + value);
 
-    loginput(input){
-        console.log(input);
-        let votes = document.getElementById('batmanVotes');
-        placetexthere.innerHTML  += votes + "<br>";
+    if (aantal==1){
+        batman.innerHTML = parseInt(batman.innerHTML) + 1;
     }
+};
 
-    clearinput(){
-        document.getElementById('input').value = "";
+
+
+
     }
 
    
